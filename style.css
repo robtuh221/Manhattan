@@ -1,10 +1,13 @@
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+body {
+    background: #210E09;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1296px;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
 form, fieldset, input, p, blockquote, table, th, td, embed, object {
 	padding: 0;
 	margin: 0; 
-    background: #210E09;
-    margin: auto;
-    width: auto;
 	}
 table {
 	border-collapse: collapse;
@@ -37,13 +40,14 @@ a, ins {
 /*Header*/
 .header__container{
     position: relative;
-    padding-left: 312px;
-    padding-top: 36px;
-
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
-    padding-left: 211px;
+    
     position: sticky;
 }
 .menu{
