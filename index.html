@@ -1,36 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="//db.onlinewebfonts.com/c/7d1b300e1f0330436dce60fdeb9951da?family=Stolzl+Medium" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Manhattan</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="root.css"> 
+  <link rel="stylesheet" href="reset.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="fonts/GothamPro/stylesheet.css" />
+
+  <title>Manhattan</title>
 </head>
+
 <body>
-    <header>
-        <div class="header__container">
-            <a href="index.html"><img class="logo__image" src="img\logo.png" alt="logotype"></a>
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li><a class="nav__link" href="#Main">Главная</a></li>
-                        <li><a class="nav__link" href="#Menu">Меню</a></li>
-                        <li><a class="nav__link" href="#Afisha">Афиша</a></li>
-                        <li><a class="nav__link" href="#Cooperation">Сотрудничество</a></li>
-                        <li><a class="nav__link" href="#Galery">Галерея</a></li>
-                        <li><a class="nav__link" href="#News">Новости</a></li>
-                    </ul>
-            </nav>
-            <button class="header__button">БРОНИРОВАНИЕ</button>
+  <!--Header-->
+  <header>
+    <div class="header__container">
+      <a href="index.html"><img class="logo__image" src="img\logo.png" alt="logotype" /></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#Main">Главная</a></li>
+          <li><a class="nav__link" href="#Menu">Меню</a></li>
+          <li><a class="nav__link" href="#Afisha">Афиша</a></li>
+          <li><a class="nav__link" href="#Cooperation">Сотрудничество</a></li>
+          <li><a class="nav__link" href="#Galery">Галерея</a></li>
+          <li><a class="nav__link" href="#News">Новости</a></li>
+        </ul>
+      </nav>
+      <button class="header__button">БРОНИРОВАНИЕ</button>
+    </div>
+    <!--Intro-->
+    <section class="Main" id="Main"></section>
+    <div class="intro">
+      <div class="intro__container">
+        <h1 class="intro__text"><span>TRUE. FONTANKA. UNDERGROUND.</span></h1>
+        <button class="intro__button">SINCE 1996</button>
+        <img class="intro__image" src="img\intro.png" alt="introtype" />
+      </div>
+      <div class="intro__poster">
+        <button class="poster__button">БЛИЖАЙШИЕ</button>
+        <button class="poster__button2">СКОРО</button>
+        <div class="poster__images">
+          <img width="160" height="200" src="img\posterf.png" alt="postertype" />
+          <img width="160" height="200" src="img\postertw.png" alt="postertype" />
+          <img width="160" height="200" src="img\postertr.png" alt="postertype" />
+          <img width="160" height="200" src="img\posterfo.png" alt="postertype" />
         </div>
-        <section class="1" id="Main"></section>
-        <section class="menu" id="Menu"></section>
-        <section class="2" id="Afisha"></section>
-        <section class="3" id="Cooperation"></section>
-        <section class="4" id="Galery"></section>
-        <section class="5" id="News"></section>
-    </header>
+      </div>
+    </div>
+  </header>
+  <!--Menu-->
+  <section class="menu" id="Menu">
+    <div class="menu__container">
+      <button class="menu__buttonst">TOP “MANHATTAN” MENU</button>
+      <h1 class="menu__header">КУХНЯ</h1>
+
+      <div class="menu__dish">
+        <button class="menu__back">
+          <img src="img\menu\strelka.png" alt="arrow back" />
+        </button>
+        <button class="menu__next">
+          <img src="img\menu\strelka2.png" alt="arrow next" />
+        </button>
+        <div class="menu__left__container">
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic1.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic2.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic3.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic4.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu__rigth__container">
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic5.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic6.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic7.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+          <div class="menu__dishs">
+            <img class="dish__image" src="img\menu\pic8.jpg" alt="salad type" />
+            <div class="dish__text__container">
+              <h1 class="dish__title">
+                AMET DONEC. <button class="dish__price">550 ₽</button>
+              </h1>
+              <p class="dish__ves">200 гр</p>
+              <span class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames
+                maecenas leo elit diam nibh elit.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="all__menu">ВСЕ МЕНЮ</button>
+    </div>
+  </section>
+  <!--Afisha-->
+  <section class="2" id="Afisha"></section>
+  <!--Cooperation-->
+  <section class="3" id="Cooperation"></section>
+  <!--Galery-->
+  <section class="4" id="Galery"></section>
+  <!--News-->
+  <section class="5" id="News"></section>
 </body>
-</html> 
+
+</html>
