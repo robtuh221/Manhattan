@@ -136,7 +136,7 @@
 	padding: 39px 35px;
 }
 
-.poster__button {
+.poster__button__closest {
 	font-family: 'Gotham Pro';
 	color: var(--main-text-color);
 	background-color: var(--secondary-background-color);
@@ -151,7 +151,7 @@
 	border-radius: 5px 5px 0px 0px;
 }
 
-.poster__button2 {
+.poster__button__coming {
 	font-family: 'Gotham Pro';
 	color: var(--main-text-color);
 	background-color: rgba(213, 98, 29, 0.05);
