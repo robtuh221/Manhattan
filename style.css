@@ -164,7 +164,6 @@
 	cursor: pointer;
 	padding: 12px 76px 7px 68px;
 	border-radius: 5px 5px 0px 0px;
-
 }
 
 /*Menu*/
@@ -177,14 +176,12 @@
 	font-family: 'Stolzl';
 	display: flex;
 	flex-direction: column;
-
 }
 
 .menu__rigth__container {
 	font-family: 'Stolzl';
 	display: flex;
 	flex-direction: column;
-
 }
 
 .menu__button__top {
@@ -231,6 +228,10 @@
 .dish__image {
 	max-width: 110px;
 	max-height: 110px;
+	-moz-user-select: none; 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .dish__title {
