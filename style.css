@@ -315,3 +315,78 @@
 .button__all__menu:hover {
 	background-color: var(--orange-border-color);
 }
+
+/*Afisha*/
+
+.afisha__container{
+	padding-top: 150px;
+	max-width: 1296px;
+	max-height: 560px;
+	display: flex;
+	flex-direction: row;
+}
+
+.container__center__column{
+	margin: 0px 44px 0px 44px
+}
+.side__column__button{
+	margin-left: 73px;
+	padding: 10px 20px 7px;
+	font-family: 'Gotham Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--main-background-color);
+	cursor: pointer;
+	transition: 0.3s all;
+	border-radius: 5px;
+	border: 1px;
+}
+
+.side__column__title{		
+	padding-top: 40px;
+	text-align: center;
+	font-family: 'Gotham Pro';
+	font-size: 40px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	font-weight: 900;
+}
+
+.side__column__text__first{
+	margin-left: 20px;
+	max-width: 376px;
+	padding: 35px 0px 0px 20px;
+	text-align: center;
+	line-height: 21px;
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-size: 14px;
+}
+.side__column__text{
+	margin-left: 20px;
+	max-width: 376px;
+	padding: 15px 0px 0px 20px;
+	text-align: center;
+	line-height: 21px;
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-size: 14px;
+}
+
+
+.side__column__button__more{
+	margin: 30px 154px 0px 154px;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	border: 2px solid var(--orange-border-color);
+	border-radius: 5px;
+	padding: 15px 30px;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.side__column__button__more:hover {
+	background-color: var(--orange-border-color);
+}
